@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Cempatible" comtent="IE = edge" />
+    <meta name="viewport" comtent="width=device-width" , initial-scale="1.0" />
+    <title>생일북북추카 꽁정어리</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+      *{
+        font-family: 'Jua', sans-serif;
+      }
+      
+      #message{
+        background-color: rgb(103, 103, 235);
+
+          border: none;
+
+          color: white;
+
+          padding: 15px 30px;
+
+          text-align: center;
+
+          text-decoration: none;
+
+          display: inline-block;
+
+          font-size: 16px;
+
+          margin: 4px 2px;
+
+          cursor: pointer;
+          border-radius: 8px;
+      }
+
+      .title {
+        color: white;
+        background-color: tomato;
+        font-size: 24px;
+        padding : 8px 16px;
+        border-radius: 8px;
+      }
+      .bg {
+        width : 360px;
+        background-image : url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+      }
+      .msg{
+        font-weight: bold;
+        color : teal;
+      }
+      .bucket{
+        width: 160px;
+        height : 160px;
+      }
+      .img1 {
+        background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+        background-size: cover;
+        background-position: center;
+      }
+      .img2 {
+        background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+        background-size: cover;
+        background-position: center;
+      }
+      .button{
+        padding : 30px;
+        margin: 30px;
+      }
+
+      </style>
+      <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+  </head>
+  <br><br><br>
+  <body class = "bg center">
+    <h1 class = "title"> 꽁정어리 생일 추카 Party 일정 </h1>
+    </style>
+    <p class = "msg"><br> 생일 추카한다롱...! </p><br>
+    <button  id = "message" onclick="toggleImg()"> 에엥...!? </button>
+    <br>
+    <img id = "ee" src = "https://image.idus.com/image/files/04a0bb853a2e49f89c7a7005e73199ba.jpg" width = "550px">
+    <br><br><br>
+
+    <a href="index2.html">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Happy birthday~!
+      <br> 생일 일정 바로가기
+  </a>
+
+  <br><br><br>
+
+    <script>
+          function toggleImg() {
+      document.getElementById("ee").src = "https://pbs.twimg.com/media/Ekr5hlUUYAMXC9B.jpg:small";
+    }
+
+    </script>
+  </body>
+</html>

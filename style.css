@@ -18,6 +18,18 @@
     top: 20%;
 }
 
+.donehi::after {    
+    content: "에엥...";
+    width: 70%;
+    height: 70%;
+    background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160124_183%2Fdbstjsdk200_1453645703549bvyR7_JPEG%2FIMG_20160122_115438.jpg&type=sc960_832");
+    background-size: cover;
+    background-position: center;
+    opacity : 0.5;
+    position: absolute;
+    top: 20%;
+}
+
 a{
     position: relative;
     display: inline-block;

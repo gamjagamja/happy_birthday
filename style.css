@@ -7,7 +7,7 @@
 
 
 .donebj::after {    
-    content: "";
+    content: "완료~";
     width: 70%;
     height: 70%;
     background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA0MjRfMTM2%2FMDAxNjUwNzQxNzcxMjU1.ns1FhRFt6jo5LCyYgdmWnU7JfJRufTBZXylJQHcCgqIg.gwFWdQ1LD9m18M7EV-EITEQ-6C_iQPR7s4dvJOyXIUEg.JPEG.nogyong_%2FIMG_7225.JPG&type=sc960_832");
